@@ -1,6 +1,6 @@
 *{
 	background-color: orange;
-	font-family: 'Luminari', fantasy;
+	font-family: 'Helvetica' bold;
 }
 
 
@@ -72,4 +72,8 @@ p {
 	height: 400px;
 	width: 400px;
 	box-shadow: 0 0 8px black inset;
+}
+
+#instagram{
+	vertical-align: center;
 }
