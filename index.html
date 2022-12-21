@@ -13,28 +13,30 @@
 			font-family: 'Helvetica' bold;
 			}
 			.banner{
-				background-color: black;
-				height: 30px;
-				width: cover;
-				padding: 10px 100px;
+				background: #000;
+                height: 50px;
+                width: 100%;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
 				text-align: center;
-				
 				
 			}
 			.menu_buttons{
-				background-color: grey;
-				color: black;
-				border: 1px solid white;
-				border-radius: 8px;
-				margin-left: 0px;
-				margin-right: 0px;
-				text-align: center;
-				font-size: 16px;
-				float:none;
+				color: #fff;
+                display: inline-block;
+                height: 50px;
+                line-height: 50px;
+                list-style: none;
+                padding: 0 10px;
+                transition: background .5s;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px
 
 			}
 			.menu_buttons:hover{
-				color: white;
+				background: #bfdcff;
+                cursor: pointer; 
+                transition: background .5s;
 			}
 			p {
 				text-align: center;
@@ -70,18 +72,19 @@
 
 <header>
 	<h1>School House Movers Co.</h1>
+</header>
+
+
+<body>
 	<nav>
 		<div class="banner">
 			<button onclick="location.href = './index.html';" class="menu_buttons" id="hbutton" >Theme One</button>
-			<button onclick="location.href = './about.html';" class="menu_buttons" id="abutton" >Theme Two</button>
-			<button onclick="location.href = './contact.html';" class="menu_buttons" id="cbutton" >Theme Three</button>
-			<button onclick="location.href = './reviews.html';" class="menu_buttons" id="rbutton" >Theme Four</button>
-			<button onclick="location.href = './gallery.html';" class="menu_buttons" id="gbutton" >Theme Five</button>
+			<button onclick="location.href = './pages/about.html';" class="menu_buttons" id="abutton" >Theme Two</button>
+			<button onclick="location.href = './pages/contact.html';" class="menu_buttons" id="cbutton" >Theme Three</button>
+			<button onclick="location.href = './pages/reviews.html';" class="menu_buttons" id="rbutton" >Theme Four</button>
+			<button onclick="location.href = './pages/gallery.html';" class="menu_buttons" id="gbutton" >Theme Five</button>
 		</div>
-		
-</header>
-
-<body>
+	</nav>
 	
 	<p id=toptext>WE'LL MOVE YOUR STUFF!!</p>
 	
