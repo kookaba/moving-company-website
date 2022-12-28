@@ -2,29 +2,32 @@
 <html lang="en">
     <head>
         <title>School House Movers</title>
+        <!--  adding rubik spraypaint, nerko one, and permanent marker font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Permanent+Marker&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Permanent+Marker&family=Rubik+Spray+Paint&display=swap');
             *{
-                font-family:Arial, Helvetica, sans-serif;
+                font-family: Arial, Helvetica, sans-serif;
             }
             header{
-                background: url(./assets/images/dallas_skyline.png) no-repeat center center;
+                border: 1px solid black;
+                background: url(./assets/images/brown-paper-recycled.jpg) no-repeat center center;
                 background-size:cover;
                 height: 400px;
                 text-align: center;
             }
-            header h1, header h2{
-                opacity: 1;
-                color:#fff;
-                -webkit-text-stroke: 2px grey;
-                padding-top: 50px;
-                
+            header *{
+                font-family: 'Nerko One', cursive;
             }
             header h1{
-                font-size: 50px;
+                color: black;
+                padding-top: 50px;
+                font-size: 100px;
             }
             header h2{
-                font-size: 30px;
-                font
+                font-size: 40px;
             }
             nav{
                 background: #000;
@@ -56,12 +59,26 @@
                 background: #bfdcff;
                 cursor: pointer; 
                 transition: background .5s;  
-}
+            }
+            body{
+                text-align: center;
+            }
+            #welcome{
+                margin-left: 25%;
+                margin-right: 25%;
+                border: 1px solid black;
+            }
+            #welcome h2{
+                font-size: 30px;
+            }
+            #welcome p{
+                font-size: 20px;
+            }
         </style>
     </head>
     <header>
         <h1>School House Movers</h1>
-        <h2>We'll move your stuff for you... for free</h2>
+        <h2>We'll move your stuff for you</h2>
     </header>
     <nav>
         <ul>
@@ -73,4 +90,10 @@
             <li>Button</li>
         </ul>
     </nav>
+    <body>
+        <div id="welcome">
+        <h2>Welcome to the official School House Movers LLC website!</h2>
+        <p>We are a moving company that operates out of Dallas, Texas!<br>Check out our page to see what we have to offer, and give us a follow on our Facebook or Instagram so you don't miss discounts or promotions that can be applied to your next move!</p>
+        </div>
+    </body>
 </html>
