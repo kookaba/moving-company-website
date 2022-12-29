@@ -58,18 +58,19 @@
                 ;
             }
             nav ul li:hover {
-                background: #bfdcff;
+                background: rgb(252, 177, 38);
+                color: #000;
                 cursor: pointer; 
                 transition: background .5s;  
             }
             body{
                 text-align: center;
             }
+            #welcome-container{
+                padding: 30px;
+            }
             #welcome{
-                padding: 3%;
-                margin-left: 25%;
-                margin-right: 25%;
-                border: 1px solid black;
+                border: 10px double black;
             }
             #welcome h2{
                 font-size: 30px;
@@ -94,9 +95,11 @@
         </ul>
     </nav>
     <body>
-        <div id="welcome">
-        <h2>Welcome to the official School House Movers LLC website!</h2>
-        <p>We are a moving company that operates out of Dallas, Texas!<br>Check out our page to see what we have to offer, and give us a follow on our Facebook or Instagram so you don't miss discounts or promotions that can be applied to your next move!</p>
+        <div id="welcome-container" class="container">
+            <div id="welcome" class="col">
+                <h2>Welcome to the official School House Movers LLC website!</h2>
+                <p>We are a moving company that operates out of Dallas, Texas!<br>Check out our page to see what we have to offer, and give us a follow on our Facebook or Instagram so you don't miss discounts or promotions that can be applied to your next move!</p>
+            </div>
         </div>
     </body>
 </html>
