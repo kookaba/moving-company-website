@@ -68,6 +68,7 @@ body {
 .banner ul li:hover {
     background-color: rgb(233, 215, 58);
     color: black;
+    border: 1px black solid;
     transform: scale(1.5);
 }
 
