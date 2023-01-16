@@ -12,6 +12,7 @@ body, .header {
 }
 body {
     flex-direction: column;
+    justify-content: space-between;
     margin: 0 20%;
     height: 100%;
     background-image: url('./assets/images/cardstock.jpg');
@@ -171,7 +172,14 @@ body {
     border-radius: 5%;
 }
 
+body * {
+    border: 1px solid red;
+
+}
+
 footer {
+    margin: 0;
+    padding: 0;
     height: 50px;
     width: 100%;
     background-color: lightgray;
