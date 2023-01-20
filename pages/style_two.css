@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Solid&display=swap');
+
+html {
+    background-color: #292929;
+}
+body, .header {
+    display: flex;
+}
+.links-top li a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20%;
+    height: 100%;
+    background-color: lightyellow;
+    box-shadow: 0 0 8px rgba(0,0,0,.4);
+}
+
+.header {
+    background-color: #E9D73A;
+    flex-direction: column;
+    height: 250px;
+    gap: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,.4);
+}
+
+.title {
+    align-self: center;
+    justify-self: center;
+    font-family: 'Londrina Shadow', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    padding-top: 1%;
+}
+
+.city {
+    align-self: center;
+    justify-self: center;
+    background-color: black;
+    color: white;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.banner {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner ul {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.banner ul li {
+    color: white;
+    list-style: none;
+    font-family: 'Londrina Shadow', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 1%;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.banner ul li:hover {
+    background-color: #FEDB00;
+    border: 1px black solid;
+    transform: scale(1.1);
+}
+
+.banner ul li:hover a {
+    color: black;
+}
+
+.links-top li a:hover {
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    gap: 15px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    border-top: 2px grey solid;
+    box-shadow: 0 0 8px rgba(0,0,0,.4);
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.links-bottom li a {
+    text-decoration: none;
+    color: lightslategray;
+}
+
+.links-bottom li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+Color Palette
+Black #000000
+Grey #292929
+Yellow #FEDB00
+Light Yellow #FFE859
+White #FFFFFF
+*/
