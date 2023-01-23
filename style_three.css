@@ -1,0 +1,119 @@
+body,
+header,
+.banner,
+.banner ul,
+.header-main, main,
+.section-one,
+footer ul {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    background-color: #2A271F;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url('./assets/images/boxes3.jpg') no-repeat;
+    background-size: auto;
+    background-position-y: 20%;
+    height: 800px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 5% 0;
+}
+
+.banner ul {
+    flex-direction: row;
+    border-radius: 10px;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    background: #2A271F;
+    color: white;
+    padding: 10px;
+    height: 30px;
+    width: 400px;
+}
+
+.banner ul li {
+    font-size: 20px;
+}
+
+.header-main {
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 8%;
+    align-self: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: #2A271F;
+    color: white;
+}
+
+.header-main h1 {
+    color: yellow;
+    font-size: 48px;
+}
+
+.header-main p {
+    font-size: 20px;
+}
+
+.header-main a {
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+main {
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% 20%;
+}
+
+.section-one {
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.image-box {
+    border: 1px solid red;
+    height: 400px;
+    margin: 5%;
+    border-radius: 50px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 500px;
+    margin: -5% 0;
+}
+
+.text-box {
+    width: 200px;
+}
+
+footer {
+    margin: 0 20%;
+}
+
+footer ul {
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 2%;
+    padding: 0;
+}
