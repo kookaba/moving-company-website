@@ -37,12 +37,12 @@ header {
     margin: 5% 0;
 }
 
-.banner ul {
+.nav {
     flex-direction: row;
     border-radius: 10px;
     list-style: none;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
     background: #2A271F;
     color: white;
     padding: 10px;
@@ -52,6 +52,15 @@ header {
 
 .banner ul li {
     font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, text-shadow 1s;
+}
+
+.banner ul li:hover {
+    background-color: white;
+    color: black;
+    text-shadow: none;
 }
 
 .header-main {
