@@ -3,7 +3,7 @@
 body,
 header,
 .banner,
-.banner ul,
+.nav,
 .header-main, main,
 .section-one,
 .text-box,
@@ -39,14 +39,15 @@ header {
 
 .nav {
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     border-radius: 10px;
     list-style: none;
     align-items: center;
     gap: 5px;
     background: #2A271F;
     color: white;
-    padding: 10px;
-    height: 30px;
+    height: 50px;
     width: 400px;
 }
 
@@ -57,7 +58,21 @@ header {
     transition: background-color 1s, color 1s, text-shadow 1s;
 }
 
-.banner ul li:hover {
+.nav-button {
+    background-color: transparent;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: transform .3s;
+}
+
+.nav-button:hover {
     background-color: white;
     color: black;
     text-shadow: none;
