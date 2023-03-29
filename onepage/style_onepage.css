@@ -7,6 +7,10 @@ header,
 .header-main, main,
 .about,
 .text-box,
+.contact,
+.reviews,
+.reviewcontainer,
+.gallery,
 footer ul {
     display: flex;
 }
@@ -129,6 +133,7 @@ main {
     width: 100%;
     background-color: grey;
     box-shadow: 3px 3px 3px black;
+    justify-content: center;
 }
 
 .image-box {
@@ -174,10 +179,25 @@ main {
 }
 
 .reviews {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: grey;
-    height: 50vh;
+    height: fit-content;
     width: 100%;
+    padding: 10px;
     box-shadow: 3px 3px 3px black;
+}
+
+.reviewcontainer {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.facebookreview {
+    width: fit-content;
+    height: fit-content;
 }
 
 .gallery {
