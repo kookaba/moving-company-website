@@ -8,6 +8,7 @@ header,
 .about,
 .text-box,
 .contact,
+.contact-form,
 .reviews,
 .reviewcontainer,
 .gallery,
@@ -172,10 +173,15 @@ main {
 }
 
 .contact {
+    flex-direction: row;
     background-color: #252525;
     height: 50vh;
     width: 100%;
     box-shadow: 3px 3px 3px black;
+}
+
+.contact-form {
+    flex-direction: column;
 }
 
 .reviews {
@@ -183,16 +189,24 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(235, 231, 231);
     height: fit-content;
     width: 100%;
     padding: 10px;
     box-shadow: 3px 3px 3px black;
 }
 
+.reviews h1 {
+    color: #252525;
+    text-shadow: none;
+}
+
 .reviewcontainer {
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 50px;
 }
 
 .facebookreview {
